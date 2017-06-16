@@ -24,7 +24,7 @@ def select_song(cat):
     return [title, artist, runs, tsec]
 
 
-db = MySQLdb.connect('localhost','root','kwiecien','music_lib')
+db = MySQLdb.connect('localhost','root','#######','music_lib')
 
 cursor = db.cursor()
 
